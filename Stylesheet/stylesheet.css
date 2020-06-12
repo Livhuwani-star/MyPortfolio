@@ -1,0 +1,604 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background:black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+ul{
+    display: none;
+}
+
+.bar{
+    position: relative;
+    margin-left: 300px;
+    bottom: 30px;
+    
+    
+}
+
+/*navbr*/
+
+/*.ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: green;
+    top: 80px;
+    left: 0;
+    text-align: center;
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    font-size: 20px;
+}
+ a:hover, a.active{
+     background: none;
+     color: pink;
+ }*/
+/*
+.github {
+    background:black;
+    padding:30px;
+    border-radius: 50%;
+}*/
+
+.github{
+display: inline-block;
+border-radius: 60px;
+box-shadow: 0px 0px 2px #888;
+padding: 0.5em 0.6em;
+}
+
+/*circle in the icons*/
+
+.linkin{
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+    }
+ .fa-envelope{
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+
+ }  
+ 
+ .fa-phone{
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+ }
+ 
+
+.icons{
+    position: relative;
+    word-spacing: 10px;
+    display: inline-block;
+}
+
+ 
+.navbar{
+    position: relative;
+    color: white;
+    text-align: right;
+    
+     }
+   
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+  } 
+.name{
+    text-align: center;
+    color:  #eb5e28;
+}
+.block{
+  
+
+    width: auto;
+    height: 40vh;
+    margin: auto;
+    text-align: center;
+    background:  rgb(56, 55, 55);;
+    
+}
+.tagline{
+    font-size: 5em;
+    
+}
+.tag{
+    color:  #f7931e;
+    text-align: center;
+}
+.menu{
+    display: none;
+}
+
+
+/*about section*/
+
+.about{
+    background:   rgb(56, 55, 55);
+    height: 110vh;
+    width: auto;
+    text-align: center;
+    margin:auto;
+}
+.box1{
+    background: rgb(231, 221, 221);
+    height: 160px;
+    width: 160px;
+    position: relative;
+    left: 70px;
+    
+}
+.myImg{
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.button {
+    background-color:#eb5e28;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+  }
+  .myName{
+      position: relative;
+      text-align: justify;
+      height: 40vh;
+      width: 85vw;
+      left: 20px;
+  }
+  /*end of about sectiom*/
+
+  /*ADA graduate page*/
+  .graduate{
+      background: rgb(56, 55, 55);
+      width: auto;
+      height: 160vh;
+      text-align: center;
+      margin: auto;
+  }
+  .Ada{
+      
+      position: relative;
+      text-align: justify;
+      height: 40vh;
+      width: 85vw;
+      left: 20px;
+  }
+  .AdA1 {
+    position: relative;
+    text-align: justify;
+    height: 40vh;
+    width: 85vw;
+    left: 20px;
+  }
+
+  .BTN{
+      background: grey;
+      
+  }
+ 
+/*end of graduatr section*/
+  /*testimonial section*/
+
+ .testimonial{
+      
+      background:rgb(56, 55, 55); 
+      width: auto;
+      height: 200vh;
+      margin: auto;
+     
+      
+  }
+  .orangebox {
+    text-align: center;
+    width: 90px;
+    height: 90px;
+    background: #eb5e28;
+}
+
+.adaboxx{
+    position: relative;
+    left: 40px;
+    height: 20vh;
+    width: 20vw;
+
+}
+.Adabox{  
+    width: 20vw;
+}
+.Adabox1{
+    bottom: 150px;
+}
+.Adabox2{
+    bottom: 280px;
+}
+.Adabox3{
+   bottom: 400px;
+}
+.textss{
+   bottom: 150px;
+    
+}
+.textss1{
+  bottom: 300px;  
+}
+.textss2{
+   bottom: 430px;  
+}
+.textss3{
+    bottom: 520px;    
+}
+.textbox{
+    position: relative;
+    display: flex;
+    left: 150px;
+    height: 40vh;
+    width: 50vw;
+    text-align: left;
+
+}
+ 
+/* get in touch section*/
+
+.getintouch{
+    background:rgb(56, 55, 55); 
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    text-align: center;
+
+}
+
+#fname{
+    background: white;
+    height: 5vh;
+    width: 80vw;
+    background-color: grey;
+}
+#email{
+    background-color: gray;
+    height: 5vh;
+    width: 80vw;
+}
+#message{
+    background: gray;
+    height: 25vh;
+    width: 80vw;
+
+}
+.footer{
+    text-align: center;
+    word-spacing: 30px;
+}
+.copy{
+    text-align: center;
+}
+
+.copyright{
+    display: inline;
+}
+
+/* --------------------------------------------------------------media queries */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // -------------------------------------------------------------Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (orientation: landscape) { 
+}
+
+/* // --------------------------------------------------------------Medium devices (tablets) */
+@media (min-width: 768px) {
+    .block{
+        
+        height: 30vh;
+
+    }
+}
+
+/* // --------------------------------------------------------------Large devices (ipad pro) */
+@media (min-width: 992px) { 
+    .block{
+        height: 30vh;
+    }
+   
+}
+
+/* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+}
+/* --------------------------------------------------------------Extra large devices landscape */
+@media (min-width: 1200px) and (orientation: landscape) { 
+    .icons{
+        position: relative;
+        margin-left: 1100px;
+    
+    }
+    .menu{
+        display: inline;
+        text-align: center;
+        word-spacing: 30px;
+        position: relative;
+        
+        
+    }
+    .block{
+        width: 90vw;
+        height:50vh;
+   
+        
+    }
+    p{
+        display: inline-block;
+        text-align: center;
+    }
+
+    /*about section*/
+
+
+
+    .about{
+        width: 90vw;
+        height:70vh;
+        display: table;
+        
+    }
+    .abt{
+        position: relative;
+        display: flex;
+        
+    
+    }
+    .aboutImg{
+        position: relative;
+    }
+    .box1{
+        height: 290px;
+        width: 290px;
+        position: relative;
+        left: 150px;
+    }
+    .myImg{
+        height: 290px;
+        width: 290px;
+        position: relative;
+        
+    }
+
+    .aboutBTN{
+        display: none;
+    }
+    .myName{
+        position: relative;
+        display: table-column;
+        text-align: justify;
+        height: 40vh;
+        width: 40vw;
+        left: 250px;
+    }
+    /* im a graduate section*/
+    .graduate{
+        width:90vw;
+        height: 90vh;
+        text-align: justify;
+        ;
+    }
+    .aboutImg{
+        height: 35vh;
+        width: 20vw;
+    }
+
+    /*testinonial section*/
+     .testimonial{
+         width: 90vw;
+         height: 100vh;
+     }
+     
+
+     .adabox{
+         position: relative;
+         left: 150px;
+     }
+     .textss{
+         position: relative;
+        left: 250px;
+        height: 40vh;
+        width: 20vw;
+     }
+
+     .adabox1{
+        position: relative;
+        left: 150px;
+    }
+    .textss1{
+        position: relative;
+       left: 250px;
+       height: 40vh;
+       width: 20vw;
+    }
+
+
+    .adabox2{
+        position: relative;
+        left: 800px;
+        bottom: 950px;
+    }
+    .textss2{
+        position: relative;
+       left: 920px;
+       height: 40vh;
+       width: 20vw;
+       bottom: 1100px;
+    }
+    .adabox3{
+        position: relative;
+        left: 800px;
+        bottom: 1080px;
+    }
+    .textss3{
+        position: relative;
+       left: 920px;
+       height: 40vh;
+       width: 20vw;
+       bottom: 1230px;
+    }
+
+     /*get in touch section */
+     .getintouch{
+         width: 90vw;
+         height: 80vh;
+     }
+     #fname{
+         width: 40vw;
+         
+     }
+     #email{
+         width: 40vw;
+     }
+     #message{
+         width: 40vw;
+     }
+
+     .copy{
+         text-align: center;
+         position: relative;
+     }
+.logodiv{
+    text-align: center;
+}
+ /*i am an ada graduate*/
+
+ .aboutImg{
+     position: relative;
+     height: 45vh;
+     width: 30vw;
+     left: 120px;
+ }
+ .graduate{
+     position: relative;
+    width: 90vw;
+    height:20vh;
+    display: table;
+     
+ }
+ 
+.imAda{
+    position: relative;
+    text-align: justify;
+    left: 800px;
+    top: 80px;
+    height: 20vh;
+    width: 10vw;
+}
+ .AdA{
+    position: relative;
+   text-align: justify;
+    bottom: 200px;
+    left: 200px;
+    height: 50vh;
+    width: 40vw;
+   
+
+}
+.AdA1{
+    position: relative;
+    text-align: justify;
+    left: 660px;
+    bottom: 450px;
+    height: 50vh;
+    width: 40vw;
+}
+.BTN{
+    position: relative;
+    left: 60px;
+    top:-400px;
+}
+.cvBtn{
+    position: relative;
+    left: 920px;
+    top: -715px;
+
+}
+
+/*grt in touch section*/
+.getintouch{
+    position: relative;
+    height: 100vh;
+}
+
+
+/*navbar*/
+  /*nav{
+    background: red;
+    height: 10vh;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active, a:hover{
+    background: yellow;
+    transition: .5s;
+}
+
+.check.btn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}*/
+
+
+
+
+/* --------------------------------------------------------------Internet Explorer */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+}
