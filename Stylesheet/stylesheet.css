@@ -65,7 +65,15 @@ body{
  .dark-grey{
      background: #333333;
  }
- 
+
+ .name{
+     color: #eb5e28;
+ }
+ .namee{
+     display: none;
+     position: relative;
+     bottom: 50px;
+ }
  .overlay {
      height: 100%;
      width: 100%;
@@ -100,8 +108,14 @@ body{
  .profile-image{
      box-shadow: -20px -20px gray;
     margin-top: 2vh;
+    padding-left: 2px 2px 2px 2px white;
  }
- 
+ /* about section */
+
+
+ .graduate{
+     color:#f7931e ;
+ }
  
  /* general styles */
  .hide-on-mobile{
@@ -163,6 +177,8 @@ body{
        background-color:#eb5e28 ;
        color: white;
    }
+
+   /* graduate section */
  
  
  /* menu */
@@ -174,43 +190,54 @@ body{
 
 
 
- 
+ .namee{
+     display: block;
+     
+     color: #eb5e28
+ }
+
+ /* get in touch */
+
+ .getintouch{
+     color:#f7931e ;
+     
+     
+ }
 .Get-in-touch {
     height: 120vh;
 }
 
-.intouchline {
-    margin-top: 20vh;
-}
 
-.touchtext {
-    margin-top: 10vh;
-}
+
 
 .touch-butto {
     margin-top: 10vh;
+    text-align: center;
 }
 
-.inputone {
-    background: grey;
-    width: 80vw;
-    height: 7vh;
-}
-
-.lname {
-    background: grey;
-    width: 80vw;
-    height: 7vh;
-}
-
-.Tname {
-    background: grey;
-    width: 80vw;
-    height: 30vh;
-}
 
  ::placeholder {
     color: white;
+}
+
+
+
+#fname{
+    background: white;
+    height: 5vh;
+    width: 80vw;
+    background-color: grey;
+}
+#email{
+    background-color: gray;
+    height: 5vh;
+    width: 80vw;
+}
+#message{
+    background: gray;
+    height: 25vh;
+    width: 80vw;
+
 }
  @media (min-width: 576px) and (orientation: landscape) { 
   
@@ -333,6 +360,16 @@ body{
      height: 90px;
      background: #eb5e28;
  }
+
+ /* about section */
+
+ .about{
+     color: #f7931e;
+     display: flex;
+     position: relative;
+     bottom: px;
+     left: 700px;
+ }
   /* testimonals section */
   .TestimonalsDiv{
      width: 86vw;
@@ -376,6 +413,56 @@ body{
  }
  
  }
+
+ /* get i touch */
  
+ .getintouch{
+    color:#f7931e ;
+    
+    
+}
+.Get-in-touch {
+   height: 120vh;
+}
+
+
+
+
+.touch-butto {
+   margin-top: 10vh;
+   text-align: center;
+}
+
+
+::placeholder {
+   color: white;
+}
+
+
+
+#fname{
+   background: white;
+   height: 5vh;
+   width: 50vw;
+   background-color: grey;
+}
+#email{
+   background-color: gray;
+   height: 5vh;
+   width: 50vw;
+}
+#message{
+   background: gray;
+   height: 25vh;
+   width: 50vw;
+
+}
+ 
+.butto{
+    
+        margin-top: 10vh;
+        text-align: center;
+    }
+}
  
  /* @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){} } */
