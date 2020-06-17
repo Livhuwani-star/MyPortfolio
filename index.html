@@ -1,223 +1,344 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Google fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Stylesheet/stylesheet.css">
-    <!--font awesome-->
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-   <!--fonts-->
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>my portfolio</title>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
 
-   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+  <!-- icons -->
+  <div class="container icons">
+    <div class="row my-3">
+      <div class="col-10 col-xl-12">
+        <div class="icon"><a href="#"><i class="fa fa-github"></i></a></div>
+        <div class="icon"><a href="#"><i class="fa fa-linkedin"></i></a></div>
+        <div class="icon"><a href="#"><i class="fa fa-envelope"></i></a></div>
+        <div class="icon"><a href="#"><i class="fa fa-phone"></i></a></div>
+      </div>
+      <div class="col-2">
+        <div class="icon mobile" onclick="openNav()">&#9776;</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- hidden navigation menu on mobile -->
+  <div id="myNav" class="overlay container-fluid">
+    <div class="row my-3">
+      <div class="col-12">
+        <div class="icon"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+      </div>
+      <div class="col-12 my-5">
+        <div class="overlay-content text-center">
+          <ul>
+            <li><a href="#" class="active">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">journey</a></li>
+            <li><a href="#">resume</a></li>
+            <li><a href="#">get in touch</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
   
-
-
-</head>
-<body>
-    
-<br> <br>
-    <!--navBAr-->
-
-<div class="icons">
-    <i class="fab fa-github github" style="font-size: 25px;" ></i>
-    <i class="fab fa-linkedin-in linkin" background="white" style="font-size: 25px;"></i>
-    <i class="far fa-envelope" style="font-size: 25px;"></i>
-    <i class="fas fa-phone" style="font-size: 25px;"></i>
-
-</div>
-
-  
-
-  <div>
-      <nav>
-          
-        
-    <i class="fas  fa-bars bar"></i>
-          </label>
-      <ul >
-          <li> <a class="active" href="#">Home</a></li>
-          <li> <a href="#">about me</a></li>
-          <li> <a href="#">journey</a></li>
-          <li> <a href="#">resume</a></li>
-          <li> <a href="#">get in touch</a></li>
-      </ul>
-    </nav>
+  <!-- header name and hr -->
+  <div class="container my-4">
+    <div class="row ">
+      <div class="col-12 text-center">
+        <h1 class="#f7931e">LIVHUWANI</h1>
+        <hr>
+      </div>
+    </div>
   </div>
 
 
-<div class="name">
-    <h1>LIVHUWANI</h1>
-</div>
-
-<hr>
-<!--
-<div class="menu">
-    <a href=""> HOME</a>
-    <a href=""> ABOUT ME</a>
-    <a href=""> JOURNERY</a>
-    <a href=""> RESUME</a>
-    <a href=""> GET IN TOUCH</a>
-    
-
-</div>
--->
-
-
-<br>
-
- <div class="block">
-     <h1 class="tagline">&lcub; 
-        HI &rcub; </h1>
-     <p class="tag"> &lt;&rcy;&gt I’m a Front-End Developer with infinite possibilities. &lt;&sol;&rcy;&gt</p>
- </div>
-
- <br><br>
-<!--about section-->
-
- <div class="about">
-     <br>
-     <h2 class="tag">About me</h2>
-<div class="abt">
-    <div class="box1">
-     <img src="assets/images/Livhuwani.jpg" alt="" width="160px" height="160px" class="myImg">
+  <!-- Desktop content -->
+  <div class="container Desktop">
+    <div class="row">
+      <div class="col-12 text-center">
+        <ul class="desktop-nav">
+          <li><a href="#" class="active">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">journey</a></li>
+            <li><a href="#">resume</a></li>
+            <li><a href="#">get in touch</a></li>
+          </ul>
+        </ul>
+      </div>
     </div>
-<br>
+  </div>
     
-   <p class="myName"> My name is Livhuwani Mukheli, I am an ingenious and determined Front-End Developer and eager to offer superb service. I am able to work well both on my own initiative or as part of  a team. <br> <br>
-
-   I have hunger for knowledge and determination to turn information into action. I am a graduate of the African Development Academy. I always have a good time while doing what I love and I love what I do. <br> <br>
-
-     I believe mindfulness in the workplace is key to success.</p>
-</div>
-
-
-    <button class="button aboutBTN">More About Me</button>
-
-
- </div >
-
- <br> <br>
-
- <!--graduate section-->
- 
- <div class="graduate">
-     <br>
-
-    <h2 class="tag imAda">I am an ADA Graduate!</h2>
-
-    <img src="assets/images/ADA logo.png" alt="" class="aboutImg">
-    <p class="AdA"> ADA - the African Development Academy - is a new program created to teach young women of colour how to code, bringing change to the tech workforce. My journey with ADA began in June 2019, when I was called for a  bootcamp. Truthfully I felt as though I had no chance whatsoever. All I knew was that I had fun with the games we played and challenges we took at the bootcamp. I was one of the top 12 women who was selected to take a 11 month learnership.</p>
-
-    <p class="AdA1 ">The focus of the learnership was to help us become Front-End Developers. It was all amazing and wonderful at the same time. I got to learn how to create websites and I overcame so many challenges. It was a great opportunity to learn something new and I learnt a lot during my time at ADA. There is so much more to tell when it comes to my coding journey, click below to read more. </p>
-
-    
-
-    <button class="button BTN">My journey at ADA</button>
-    <br> <br>
-    <button class="button cvBtn">View My CV</button>
- </div>
-<br> <br>
-
- <!--Testimonial sectiond-->
-
-
-
-
-
-
-
-
-
- <div class="testimonial">
-     <br>
-     <h2 class="tag">Testimonials</h2>
-
-
-     <div class="adabox adaboxx">
-     <img src="assets/images/ADA logo.png" alt="" height="90px" width="90px" class="logo"> 
-     <div class="orangebox">in <br> contact <br> ADA</div>
+  <!-- Hi! section -->
+  <section class="container dark-grey py-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="tagline"><span class="lightgrey">&lcub;</span>Hi!<span class="lightgrey">&rcub;</span></h1>
+      </div>
+      <div class="col-12 text-center my-5">
+        <p class="tag"><span class="lightgrey">&lt;&rcy;</span>&gtI’m a Front-End Developer with infinite possibilities. <span class="span lightgrey">&lt;&sol;&rcy;&gt</span></p>
+      </div>
     </div>
-     <p class="textss textbox"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste amet tempore temporibus inventore blanditiis, ex alias quod corporis, doloribus dignissimos non odio? Optio illo nam numquam, voluptatem dolore accusantium ab.</p>
-     
-       <br>
-       <div class="adabox1 adaboxx">
-     <img src="assets/images/laura.jpg" alt="" height="90px" width="90px" class="imgs">
-     <div class="orangebox">in <br> contact <br> ADA</div>
+  </section>
+
+  <!-- About Section -->
+  <!-- <div class="container dark-grey py-5">
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <h1 class="hot-pink">About Me</h1>
+      </div>
     </div>
-     <p class="textss1 textbox">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis animi quidem libero numquam officia recusandae et suscipit, ea laboriosam sequi labore voluptates reiciendis adipisci voluptatibus, dolorum architecto? Sit, alias harum?</p>
+  </div> -->
+<br><br>
+<section class="container dark-grey py-5">
+<div class="container my-5">
+  <div class="row">
+    <div class=" text-center col-xl-12"><h1 class="hot-pink mt-12 hide-on-mobile ">About Me</h1></div>
+      <div class=" text-center col-sm-12 col-lg-6 hide-on-mobile show-on-desktop"><img class="profile-image" src="Assets/Screensho1t_2020-06-15-11-49-00.png" alt=""></div>
+      <div class=" text-center col-sm-12 col-lg-6 hide-on-mobile show-on-desktop">
+      <p class="myName" style="color:white"> My name is Livhuwani Mukheli, I am an ingenious and determined Front-End Developer and eager to offer superb service. I am able to work well both on my own initiative or as part of  a team.
 
-     <div class="adabox2 adaboxx">
-     <img src="assets/images/andy.jpg" alt=""  height="90px" width="90px" class="imgs">
-     <div class="orangebox">in <br> contact <br> ADA</div>
-     </div>
-     <p class="textss2 textbox">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam porro fugiat est ex ullam voluptate? Illum, sapiente ipsum laborum aliquid obcaecati debitis, nulla ab cumque aperiam dolorem minima pariatur minus?</p>
-
-     <div class="adabox3 adaboxx">
-     <img src="assets/images/kate.jpg" alt="" height="90px" width="90px" class="imgs">
-     <div class="orangebox">in <br> contact <br> ADA</div>
-     </div>
-     <p class="textss3 textbox">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, inventore commodi aut porro nisi sunt alias quam ipsam autem enim accusamus et ipsa consequuntur est doloribus omnis architecto quos vel.</p>
-
- </div>
-
- 
- 
- 
- <!--get in touch section-->
- 
- <br> <br>
- <div class="getintouch">
-     <br>
-     <h2 class="tag">Get in touch!</h2>
-
-
-     <p>LIke what you see? Drop me an email using the form below and I will get back to you as soon as possible. </p>
-
-     <p>Feel free to ask any questions that you have, as I am always happy to answer and help with new challenges.</p>
-
-
-     <form action="">
-    
-        <input type="text" id="fname" name="firstname" placeholder="Your name">
-<br> <br>
-        <input type="text" id="email" name="email" placeholder=" your email">
-        <br> <br>
-        <input type="text" id="message" name="message" placeholder="Your message">
+        I have hunger for knowledge and determination to turn information into action. I am a graduate of the African Development Academy. I always have a good time while doing what I love and I love what I do.
         
-     </form>
+        I believe mindfulness in the workplace is key to success.
+        </p>
+        
+        </div>
+      <div class="col-sm-12 col-lg-6">
+          <div class="row">
+            <div class=" text-center col-sm-12 hide-on-desktop"><h1 class="hot-pink mt-12">About Me</h1></div>
+              <div  class="col-sm-12 text-center hide-on-desktop"><img class="profile-image" src="assets/images/Livhuwani.jpg" alt="" width="50%"></div>
+              <div class="col-sm-12 hide-on-desktop"> <p class="myName" style="color:white"> My name is Livhuwani Mukheli, I am an ingenious and determined Front-End Developer and eager to offer superb service. I am able to work well both on my own initiative or as part of  a team.
 
-    <button class="button">Send!</button>
- 
- </div>
+                I have hunger for knowledge and determination to turn information into action. I am a graduate of the African Development Academy. I always have a good time while doing what I love and I love what I do.
+                
+                I believe mindfulness in the workplace is key to success.
+                
+                </p>
 
- <br>
 
- <!--fotter-->
- 
- <div class="footer" >
+<input class="butto" type="button" value="More about me">
 
-    
-        <i class="fab fa-github" style="font-size: 25px;" ></i>
-        <i class="fab fa-linkedin-in" background="white" style="font-size: 25px;"></i>
-        <i class="far fa-envelope" style="font-size: 25px;"></i>
-        <i class="fas fa-phone" style="font-size: 25px;"></i>
-
- 
-     
-
- </div>
- <div class="copyright">
- <p class="copy">copy right 2020, made by  </p> <p class="tag"> Livhuwani</p>
+                </div>
+          </div>
+      </div>
+  </div>
 </div>
+</section>
 
- <!-- link to bootstrap js -->
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-     
-     <script src="js/scripts.js"></script>
-</body>
-</html> 
+<br><br>
+<!-- Graduate -->
+<section class="container dark-grey py-5">
+<div class="container my-5">
+  <div class="row">
+    <div class=" text-center col-xl-12"><h1 class="hot-pink mt-12 hide-on-mobile ">I am an ada Graduate</h1></div>
+      <div class=" text-center col-sm-12 col-lg-6 hide-on-mobile show-on-desktop"><img src="Assets/Ada_logo.jpg" alt="" width="70%"height="100%"></div>
+      <div class=" text-center col-sm-12 col-lg-6 hide-on-mobile show-on-desktop">
+      <p class="myName" style="color:white"> My name is Livhuwani Mukheli, I am an ingenious and determined Front-End Developer and eager to offer superb service. I am able to work well both on my own initiative or as part of  a team.
+
+        I have hunger for knowledge and determination to turn information into action. I am a graduate of the African Development Academy. I always have a good time while doing what I love and I love what I do.
+        
+        I believe mindfulness in the workplace is key to success.
+        </p>
+         <div class="but">
+         <input class="buttons" type="button" value="More about me">
+         <input class="buttons buttonTwo" type="button" value="More about me">
+        </div>
+      </div>
+      <div class="col-sm-12 col-lg-6">
+          <div class="row">
+            <div class=" text-center col-sm-12 hide-on-desktop"><h1 class="hot-pink mt-12">I am an ada Graduate</h1></div>
+              <div  class="col-sm-12 text-center hide-on-desktop"><img  src="Assets/Ada_logo.jpg" alt="" width="50%"></div>
+              <div class="col-sm-12 hide-on-desktop"> <p class="myName" style="color:white"> ADA - the African Development Academy - is a new program created to teach young women of colour how to code, bringing change to the tech workforce. My journey with ADA began in June 2019, when I was called for a  bootcamp. Truthfully I felt as though I had no chance whatsoever. All I knew was that I had fun with the games we played and challenges we took at the bootcamp. I was one of the top 12 women who was selected to take a 11 month learnership.
+
+                The focus of the learnership was to help us become Front-End Developers. It was all amazing and wonderful at the same time. I got to learn how to create websites and I overcame so many challenges. It was a great opportunity to learn something new and I learnt a lot during my time at ADA. There is so much more to tell when it comes to my coding journey, click below to read more. 
+                </p>
+
+
+<input class="butto" style="color: gray;" type="button" value="More about me">
+<input class="butto buttoTwo" type="button" value="More about me">
+
+                </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+  <!-- Testimonies -->
+  <br><br>
+   <!-- testimonals section -->
+   <section class="container ">
+   <div class="d-flex align-items-center TestimonalsDiv flex-column ">
+
+    <div class="p-2 bd-highlight">
+        <h1 class="TestimonalsHeading" style="color: #f7931e;">Testimonals</h1>
+   </div>
+
+   <br>
+   
+   <div class="container">
+     <div class="row firstColums">
+       <div class="col TestimonalsDivs">
+         <div class="card" >
+           <img src="assets/images/ADA logo.png" class="card-img-top TestimonalImage" alt="...">
+         
+           <div class="card-body ContactDiv">
+
+             <!-- linkedIn icon -->
+           <div class="p-2 bd-highlight">
+
+             <a href="https://www.linkedin.com/in/african-developers-academy-9903b9188/"><i class="fab fa-linkedin-in"></i></a>
+             
+         </div>
+
+
+             <p class="card-text TestimonalsContactText">CONTACT ADA</p>
+           </div>
+         </div>
+       </div>
+
+
+       <div class="col"> <p class="TestimonalsContent firstColumsText">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam s quis et omnis alias voluptatum vitae,Lorem, ipsumsee.
+
+         <br>
+         <strong>-Ada</strong>
+       </p> </div>
+
+
+       <div class="w-100"></div>
+       <div class="col TestimonalsDivs">
+         <div class="card">
+           <img src="AssetS/images/laura.jpg" class="card-img-top lectureImages" alt="...">
+           <div class="card-body ContactDiv">
+                  <!-- linedIn icon -->
+           <div class="p-2 bd-highlight">
+            <a href="https://www.linkedin.com/in/laura-ann-seal-59b713195/"> <i class="fab fa-linkedin-in"></i></a>
+         </div>
+
+             <p class="card-text TestimonalsContactText">CONTACT LAURA</p>
+           </div>
+         </div>
+       </div>
+       
+       
+       <div class="col"> <p class="TestimonalsContent firstColumsText">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam natus, eos sequi explicabo aperiamvitae,Lorem, ipsum dolor sit
+
+         <br>
+         <strong>-Laura Seal</strong>
+       </p> </div>
+     </div>
+
+
+   
+
+     <div class="row secondColums">
+       <div class="col TestimonalsDivs">
+         <div class="card">
+           <img src="assets/images/andy.jpg" class="card-img-top lectureImages" alt="...">
+           <div class="card-body ContactDiv">
+                 <!-- linedIn icon -->
+           <div class="p-2 bd-highlight">
+            <a href="https://www.linkedin.com/in/andreahayes720192/"> <i class="fab fa-linkedin-in"></i></a>
+         </div>
+
+             <p class="card-text TestimonalsContactText">CONTACT ANDREA</p>
+           </div>
+         </div>
+       </div>
+       <div class="col"> <p class="TestimonalsContent">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam natus quis et omnis alias voluptatum veritatis,see.eos sequi explicabo ap
+       
+         <br>
+         <strong>-Andrea Hayes</strong>
+
+       </p>
+       
+         
+       </div>
+
+
+       
+       
+       <div class="w-100"></div>
+       <div class="col TestimonalsDivs">
+         <div class="card">
+           <img src="Assets/images/kate.jpg" class="card-img-top lectureImages" alt="...">
+           <div class="card-body ContactDiv">
+                  <!-- linKedIn icon -->
+           <div class="p-2 bd-highlight">
+            <a href="https://www.linkedin.com/in/kate-marsay/"> <i class="fab fa-linkedin-in"></i></a>
+         </div>
+
+             <p class="card-text TestimonalsContactText">CONTACT KATE</p>
+           </div>
+         </div>
+       </div>
+       <div class="col"> <p class="TestimonalsContent">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. In doloremque atque sequi vitae,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam natus, eos sequi explicabo aperiam excepturi dolores dignissimos quis et omnis alias voluptatum veritatis,see.
+
+         <br>
+         <strong>-Kate Marsay</strong>
+       </p> </div>
+     </div>
+
+   </div>
+
+</div>
+</section>
+
+
+
+<!--Get in  Touch section-->
+<section class="container dark-grey py-5 ">
+    <div class="row ">
+        <div class="col-12 text-center ">
+            <h2 >Get in touch</h1>
+        </div>
+        <div class="col-12 text-center my-5 ">
+            <form action="/action_page.php ">
+
+                <input class="inputone " type="text " id="fname " name="firstname " placeholder="Your name ">
+                <br> <br>
+    
+                <input type="text " class="lname " name="lastname " placeholder="Your email ">
+    
+                <br> <br>
+    
+                <input type="text " class="Tname " name="Title " placeholder="Your message ">
+    
+    
+                <br>
+    
+                <input class="butto touch-butto text-center " type="button " value="send ">
+        </div>
+    </div>
+</section>
+
+<br>
+
+    <!-- Optional JavaScript -->
+    <script src="jS/scripts.js"></script>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
