@@ -1,245 +1,195 @@
 body{
     background-color: black;
     font-family: 'Montserrat', sans-serif;
-     font-size: 1em;
-     color: white;
- }
+    font-size: 1em;
+    color: white;
+}
  
- /* *{
-     box-sizing: border-box;
- } */
- html{
-     overflow-x: hidden;
- }
  
- /* Fonts */
- h1{
-     font-weight: 500;
+html{
+    overflow-x: hidden;
  }
- h1.hot-pink{
-     color: #f7931e;
-     letter-spacing: 0.2em;
-     text-transform: uppercase;
-     font-weight: 300;
- }
- h1.tagline{
-     font-weight: 200;
-     font-size: 9em;
-     color: white;
-     margin:0;
- }
- span.lightgrey{
-     color: #808080;
- }
- p.tag{
-     color: #f7931e;
- }
- p{
-     color: white;
- }
+
  
- /* icons */
- .icon{
-     display: inline-block;
-     font-size: 22px;
-     border: 1.5px solid white;
-     border-radius: 50%;
-     height: 40px;
-     width: 40px;
-     text-align: center;
-     padding-top: 2px;
- }
- .icon a{
-     color: white;
- }
- .icon.mobile{
-     float: right;
-     color: white;
- }
  
- /* header: name and hr */
- hr{
+/* Fonts */
+
+
+h1{
+    color: #f7931e;
+    text-transform: uppercase;
+    
+}
+
+h1.tagline{
+    color: white;
+    margin:0;
+    font-size: 8em;
+}
+
+span.lightgrey{
+    color: #808080;
+}
+
+p.tag{
+    color: #f7931e;
+}
+
+p{
+    color: white;
+}
+.dark-grey{
+    background: #333333;
+}
+ 
+.hide-on-mobile{
+    display: none;
+}
+
+.arrow{
+    display: none;
+}
+
+.button{
+    background-color: #eb5e28;
+    border-radius: 80px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 80vw;
+  }
+/* icons */
+
+.icon{
+    display: inline-block;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.icon a{
+    color: white;
+}
+
+.icon.mobile{
+    float: right;
+    color: white;
+}
+
+ 
+/* header: name and hr */
+
+hr{
    width: 100%;
    border-top: 1px white solid;  
    opacity: 0.7  ;
- }
+}
  
- /* general stuff */
- .dark-grey{
-     background: #333333;
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+}
+
+.overlay .icon{
+    float: right;
+    color: white;
+}
+
+.overlay-content ul{
+    list-style: none;
+    font-size: 2em;
+    font-weight: 700;
  }
 
- .name{
-     color: #eb5e28;
- }
- .namee{
-     display: none;
-     position: relative;
-     bottom: 50px;
- }
- .overlay {
-     height: 100%;
-     width: 100%;
-     display: none;
-     position: fixed;
-     z-index: 1;
-     top: 0;
-     left: 0;
-     background-color: rgb(0,0,0);
-   }
- .overlay .icon{
-     float: right;
-     color: white;
- }
- .overlay-content ul{
-     list-style: none;
-     font-size: 2em;
-     font-weight: 700;
- }
- .overlay-content a{
+.overlay-content a{
      color: white;
      line-height: 2em;
- }
- .overlay-content a.active{
-     color: #f7931e;
- }
+}
+
+.overlay-content a.active{
+    color: #f7931e;
+}
   
- .Desktop{
-     display: none;
- 
- }
- .profile-image{
-     box-shadow: -20px -20px gray;
-    margin-top: 2vh;
-    padding-left: 2px 2px 2px 2px white;
- }
+.Desktop{
+   display: none;
+}
+
+.profile-image{
+    box-shadow: -20px -20px gray;
+    border: 4px solid white;
+}
+
  /* about section */
+ .name{
+    color: #eb5e28;
+}
+
+.namee{
+    position: relative;
+    bottom: 50px;
+    display: block;
+    color:#f7931e
+}
 
 
- .graduate{
-     color:#f7931e ;
+/* i am an ada graduate  section*/
+.graduate{
+    color:#f7931e ;
  }
  
- /* general styles */
- .hide-on-mobile{
-     display: none;
- }
  
- .butto {
-     color: white;
-     background: #f7931e;
-     width: 60vw;
-     height: 7vh;
-     border-radius: 25px;
-     margin-top: 5vh;
-     margin-left: 10vw;
- }
- .orangebox {
-     text-align: center;
-     width: 90px;
-     height: 90px;
-     background: #eb5e28;
- }
-  /* testimonals section */
-  .TestimonalsDiv{
-     width: 90vw;
-     height: 235vh;
-     margin: auto;
-     text-align: center;
-     background: rgb(41, 40, 40); 
-   }
-   .card{
-     background: rgb(41, 40, 40); 
-     border-radius: 0;
-     border-width: 0;
-   }
- .TestimonalsHeading{
-       margin-top: 15px;
-       font-weight: 400;
-       opacity: 1;
-   }
-   .TestimonalsContent{
-       font-size: 14px;
-       font-weight: 250;
-       line-height: 18px;
-       text-align: justify;
-       text-size-adjust: 2px;
-       color: white;
-     
-   }
-   .TestimonalsContactText{
-       font-size: 16px;
-       text-align: center;
-   }
-   .TestimonalsDivs{
-     margin-bottom: 20px;
- }
-
- .testimonial-img{
-     width: 100%;
- }
- .orange-block{
-     background: #eb5e28;
- }
- .orange-block a i{
-     color: white;
-     font-size: 30px;
- }
-
-
-
-
-
-   .ContactDiv{
-       width: 100%;
-       height: 8%;
-       background-color:#eb5e28 ;
-       color: white;
-   }
-
-   /* graduate section */
+/* testimonals section */
  
+.testimonial-img{
+    width: 100%;
+}
+
+.orange-block{
+    background: #eb5e28;
+}
+
+.orange-block a i{
+    color: white;
+    font-size: 30px;
+}
+
  
- /* menu */
- .menu{
+/* menu */
+
+.menu{
      margin-left:40vw ;
      margin-top:-23vh ;
- }
+}
 
-
-
-
- .namee{
-     display: block;
-     
-     color: #eb5e28
- }
 
  /* get in touch */
 
- .getintouch{
-     color:#f7931e ;
-     
-     
- }
-.Get-in-touch {
-    height: 120vh;
+.getintouch{
+    color: #f7931e;
 }
 
 
-
-
-.touch-butto {
-    margin-top: 10vh;
-    text-align: center;
-}
 
 
  ::placeholder {
     color: white;
 }
-
-
 
 #fname{
     background: white;
@@ -247,11 +197,13 @@ body{
     width: 80vw;
     background-color: grey;
 }
+
 #email{
     background-color: gray;
     height: 5vh;
     width: 80vw;
 }
+
 #message{
     background: gray;
     height: 25vh;
@@ -264,9 +216,16 @@ body{
     color: #f7931e;
 }
 
-footer{
+.footer-icons{
+    text-align: center;
+
+}
+
+.copyright{
     text-align: center;
 }
+
+
  @media (min-width: 576px) and (orientation: landscape) { 
   
    
@@ -284,18 +243,21 @@ footer{
  /* // --------------------------------------------------------------Large devices (ipad pro) */
  @media (min-width: 992px) { 
  
-     .show-on-desktop{
-         display: block;
-     }
-     .hide-on-desktop{
-         display: none;
-     }
-     .menu{
-         display: none;
-     }
-     .social-icons{
-         text-align: right;
-     }
+.show-on-desktop{
+    display: block;
+}
+
+.hide-on-desktop{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+.social-icons{
+     text-align: right;
+ }
  
     
  }
@@ -304,175 +266,133 @@ footer{
          overflow: hidden;
      } */
  
-     /* icons */
-     .icons{
-         text-align: right;
-     }
+/* icons */
+.icons{
+     text-align: right;
+}
  
-     #myNav{
+#myNav{
      display: none;
-     }
-     ul.desktop-nav{
-         list-style: none;
-     }
-     ul.desktop-nav li{
-         display: inline-block;
-         margin: 0 20px;
-         text-transform: uppercase;
-     }
-     ul.desktop-nav li a{
-         color: white;
-     }
-     ul.desktop-nav li a.active{
-         color:#f7931e;
-     }
+}
+
+ul.desktop-nav{
+    list-style: none;
+}
+
+ul.desktop-nav li{
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+ul.desktop-nav li a{
+     color: white;
+}
+
+ul.desktop-nav li a.active{
+     color:#f7931e;
+}
  
  
-     .Desktop{
+.Desktop{
      display: block;
      color: white;
-     }  
-     .mobile{
+}
+
+.mobile{
      display: none;
-     }
-     .dots{
+}
+}.arrow{
+    display: inline-block;
+    position: relative;
+    margin-left: 40%;
+    font-size: 1px;
+    border: 1px solid white;
+    border-radius:  50%;
+    text-align: center;
+    padding-bottom: 1px;
+
+}
+.dots{
          display: none;
-     }
+}
     
-   .combined{
+.combined{
       position: relative;
       left: 1300px;
       bottom: -60px;
-     }
+}
  
- .myName{
+.myName{
    text-align: center;
- }
+}
  
- .block{
+.block{
      width: 90vw;
      height:50vh;
      position: relative;
      bottom: 30vh;
-     left: 80px;
+     left: 80px;    
+}
+
+p{
+     text-align: left;
+}
  
-     
- }
- p{
-     display: inline-block;
- }
- 
- .butto {
-   display: none;
- } 
- .buttoTwo{
-     display: block;
- }
- 
- .buttons{
-     display: inline-block;
-     margin: 0 20px;
-     color: white;
-     background: #f7931e;
-     width: 15vw;
-     height: 7vh;
-     border-radius: 25px;
-     margin-top: 5vh;
-     margin-left: 10vw;
-     
- }
- .orangebox {
+button-mobile{
+    display: none;
+}
+.button{
+    position: relative;
+    width: 15vw;
+    height: 7vh;
+}
+.button-journey{
+    background: grey;
+}
+
+.orangebox {
      text-align: center;
      width: 90px;
      height: 90px;
      background: #eb5e28;
- }
+}
 
- /* about section */
+/* about section */
 
- .about{
+.about{
      color: #f7931e;
      display: flex;
      position: relative;
-     bottom: px;
      left: 700px;
- }
-  /* testimonals section */
-  .TestimonalsDiv{
-     width: 86vw;
-     height: 100vh;
-   }
-   .TestimonalsHeading{
-     font-weight: 300;
-     text-align: center;
-     font-size: 2em;
-     width: 20vw;
-     margin-top: 8vh;
- }
- .TestimonalImage{
-     width: 10vw;
-     height: 15vh;
-   }
-   .ContactDiv{
-     width: 10vw;
-     height: 15vh;
- }
- .lectureImages{
-     width: 10vw;
-     height: 15vh;
-   }
-   .TestimonalsContent{
-     margin-left: -5vw;
-     width: 20vw;
-    
-  }
-
-  .testimonial{
-      padding: 5%;
-  }
-
-
-
- .firstColums{
-     margin-left: -5vw;
- 
- }
- .firstColumsText{
-     margin-left: -20vw;
- 
- }
- 
- .secondColums{
-     transform: translate(30vw,-80vh);
- }
- 
- }
-
- /* get i touch */
- 
- .getintouch{
-    color:#f7931e ;
-    
-    
 }
+
+
+/* i am an dad graduate */
+
+
+
+
+/* testimonals section */
+  
+
+.testimonial{
+      padding: 5%;
+}
+
+ /* get in touch */
+ 
+.getintouch{
+    color:#f7931e ;   
+}
+
 .Get-in-touch {
    height: 120vh;
 }
 
-
-
-
-.touch-butto {
-   margin-top: 10vh;
-   text-align: center;
-}
-
-
 ::placeholder {
    color: white;
 }
-
-
 
 #fname{
    background: white;
@@ -480,16 +400,17 @@ footer{
    width: 50vw;
    background-color: grey;
 }
+
 #email{
    background-color: gray;
    height: 5vh;
    width: 50vw;
 }
+
 #message{
    background: gray;
    height: 25vh;
    width: 50vw;
-
 }
  
 .butto{
