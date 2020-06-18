@@ -33,7 +33,9 @@ body{
  p.tag{
      color: #f7931e;
  }
- 
+ p{
+     color: white;
+ }
  
  /* icons */
  .icon{
@@ -238,6 +240,15 @@ body{
     height: 25vh;
     width: 80vw;
 
+}
+
+/* footer */
+.madename{
+    color: #f7931e;
+}
+
+footer{
+    text-align: center;
 }
  @media (min-width: 576px) and (orientation: landscape) { 
   
