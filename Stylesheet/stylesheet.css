@@ -9,7 +9,6 @@ body{
 html{
     overflow-x: hidden;
  }
-
  
  
 /* Fonts */
@@ -43,10 +42,6 @@ p{
 }
  
 .hide-on-mobile{
-    display: none;
-}
-
-.arrow{
     display: none;
 }
 
@@ -302,17 +297,7 @@ ul.desktop-nav li a.active{
 .mobile{
      display: none;
 }
-}.arrow{
-    display: inline-block;
-    position: relative;
-    margin-left: 40%;
-    font-size: 1px;
-    border: 1px solid white;
-    border-radius:  50%;
-    text-align: center;
-    padding-bottom: 1px;
 
-}
 .dots{
          display: none;
 }
