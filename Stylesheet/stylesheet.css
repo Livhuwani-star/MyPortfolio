@@ -4,7 +4,7 @@ body{
     font-size: 1em;
     color: white;
 }
- 
+  
  
 html{
     overflow-x: hidden;
@@ -15,9 +15,12 @@ html{
 
 
 h1{
-    color: #f7931e;
+    color: #96f7d2;
     text-transform: uppercase;
     
+}
+h2{color: #96f7d2;
+    text-align: center;
 }
 
 h1.tagline{
@@ -31,7 +34,7 @@ span.lightgrey{
 }
 
 p.tag{
-    color: #f7931e;
+    color:#96f7d2;
 }
 
 p{
@@ -46,7 +49,7 @@ p{
 }
 
 .button{
-    background-color: #eb5e28;
+    background-color: #00bdaa;
     border-radius: 80px;
     color: white;
     padding: 15px 32px;
@@ -118,7 +121,7 @@ hr{
 }
 
 .overlay-content a.active{
-    color: #f7931e;
+    color: #96f7d2;
 }
   
 .Desktop{
@@ -132,20 +135,21 @@ hr{
 
  /* about section */
  .name{
-    color: #eb5e28;
+    color:#96f7d2 ;
+    color: #00bdaa;
 }
 
 .namee{
     position: relative;
     bottom: 50px;
     display: block;
-    color:#f7931e
+    color:#96f7d2;
 }
 
 
 /* i am an ada graduate  section*/
 .graduate{
-    color:#f7931e ;
+    color:#96f7d2 ;
  }
  
  
@@ -156,12 +160,13 @@ hr{
 }
 
 .orange-block{
-    background: #eb5e28;
+    background: #00bdaa;
 }
 
 .orange-block a i{
     color: white;
     font-size: 30px;
+
 }
 
  
@@ -176,7 +181,7 @@ hr{
  /* get in touch */
 
 .getintouch{
-    color: #f7931e;
+    color: #96f7d2;
 }
 
 
@@ -208,7 +213,7 @@ hr{
 
 /* footer */
 .madename{
-    color: #f7931e;
+    color: #96f7d2;
 }
 
 .footer-icons{
@@ -219,6 +224,20 @@ hr{
 .copyright{
     text-align: center;
 }
+
+
+/* reusme page */
+.headings{
+  font-weight: bold;
+}
+
+.mt-12{
+    color:#96f7d2 ;
+}
+
+
+/* about me page */
+
 
 
  @media (min-width: 576px) and (orientation: landscape) { 
@@ -285,7 +304,9 @@ ul.desktop-nav li a{
 }
 
 ul.desktop-nav li a.active{
-     color:#f7931e;
+    
+     color:#96f7d2 ;
+
 }
  
  
@@ -312,13 +333,13 @@ ul.desktop-nav li a.active{
    text-align: center;
 }
  
-.block{
+/* .block{
      width: 90vw;
      height:50vh;
      position: relative;
      bottom: 30vh;
      left: 80px;    
-}
+} */
 
 p{
      text-align: left;
@@ -336,18 +357,20 @@ button-mobile{
     background: grey;
 }
 
-.orangebox {
+/* .orangebox {
      text-align: center;
      width: 90px;
      height: 90px;
-     background: #eb5e28;
-}
+    background:#96f7d2 ;
+    
+} */
 
 /* about section */
 
 .about{
-     color: #f7931e;
-     display: flex;
+   
+    color:#96f7d2 ;
+    display: flex;
      position: relative;
      left: 700px;
 }
@@ -368,7 +391,9 @@ button-mobile{
  /* get in touch */
  
 .getintouch{
-    color:#f7931e ;   
+    
+    color:#96f7d2 ;
+
 }
 
 .Get-in-touch {
@@ -403,6 +428,23 @@ button-mobile{
         margin-top: 10vh;
         text-align: center;
     }
+
+
+/* resume */
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color:#96f7d2 ;
+    
+}
+
+
+/* about me page */
+i{
+    text-align: center;
+}
 }
  
  /* @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){} } */
