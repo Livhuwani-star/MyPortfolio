@@ -241,7 +241,7 @@ hr{
 }
 .star{
  
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /* .fa-star{
@@ -262,7 +262,34 @@ hr{
  
  /* // --------------------------------------------------------------Medium devices (tablets) */
  @media (min-width: 768px) {
-     .block{
+     
+    /* home page */
+
+    .button{
+        background-color: #00bdaa;
+        border-radius: 80px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 30vw;
+      }
+    
+    
+    
+    .orange-block a i{
+        color: white;
+        font-size: 30px;
+    
+    }
+    
+    
+    
+    .block{
          
          height: 30vh;
  
@@ -457,6 +484,11 @@ button-mobile{
 h2{
     color:#96f7d2 ;
     
+}
+
+.skill-box{
+    padding: 50px 10px;
+
 }
 
 
