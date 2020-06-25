@@ -33,6 +33,7 @@ span.lightgrey{
     color: #808080;
 }
 
+
 p.tag{
     color:#96f7d2;
 }
@@ -234,8 +235,20 @@ hr{
 .mt-12{
     color:#96f7d2 ;
 }
+.starr{
+ 
+    font-size: 25px;
+}
+.star{
+ 
+    font-size: 40px;
+}
+
+/* .fa-star{
+    color:#96f7d2 ;
 
 
+} */
 /* about me page */
 
 

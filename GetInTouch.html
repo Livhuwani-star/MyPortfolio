@@ -1,23 +1,32 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Google fonts link -->
+   
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
     <!-- css link -->
     <link rel="stylesheet" href="Stylesheet/stylesheet.css">
-    <title>Getintouch</title>
-</head>
-<body>
-  
-    
- <!-- icons -->
- <div class="container icons">
+
+    <title>my portfolio</title>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+  <!-- icons -->
+  <div class="container icons">
     <div class="row my-3">
       <div class="col-10 col-xl-12">
         <div class="icon"><a href=" https://livhuwani-star.github.io/MyPortfolio/"><i class="fa fa-github"></i></a></div>
@@ -35,16 +44,16 @@
   <div id="myNav" class="overlay container-fluid">
     <div class="row my-3">
       <div class="col-12">
-        <div class="icon"><a href="" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a></div>
+        <div class="icon"><a href="" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a></div>
       </div>
       <div class="col-12 my-5">
         <div class="overlay-content text-center">
           <ul>
             <li><a href="http://127.0.0.1:5500/index.html" class="active">home</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">journey</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutMe.html">about</a></li>
+            <li><a href="http://127.0.0.1:5500/journey.html">journey</a></li>
             <li><a href="http://127.0.0.1:5500/resume.html">resume</a></li>
-            <li><a href="#">get in touch</a></li>
+            <li><a href="http://127.0.0.1:5500/GetInTouch.html">get in touch</a></li>
           </ul>
         </div>
       </div>
@@ -67,16 +76,16 @@
     <div class="row">
       <div class="col-12 text-center">
         <ul class="desktop-nav">
-          <li><a href="http://127.0.0.1:5500/index.html" class="active">home</a></li>
-            <li><a href="#">about</a></li>
+          <li><a href="#http://127.0.0.1:5500/index.html" class="active">home</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutMe.html">about</a></li>
             <li><a href="http://127.0.0.1:5500/journey.html">journey</a></li>
             <li><a href="http://127.0.0.1:5500/resume.html">resume</a></li>
-            <li><a href="#">get in touch</a></li>
+            <li><a href="http://127.0.0.1:5500/GetInTouch.html">get in touch</a></li>
           </ul>
         </ul>
       </div>
     </div>
-  </div>
+  </div> 
 
 <!-- heading -->
 
@@ -91,12 +100,37 @@
           <p style="text-align: center;"> Feel free to ask any questions that you have, as I am always happy to answer and help with new challenges.</p>
         </div>
     <div class="col-12 text-center my-5">
-    <form action="">
-        <input type="text" id="fname" name="firstname" placeholder="Your name" height="10px" width="80">
-        <input type="text" id="email" name="email" placeholder=" your email" class="mt-3">
-        <input type="text" id="message" name="message" placeholder="Your message" class="mt-3">
-    </form>
-    <a href="#" class="button mt-5">Send!</a> 
+
+
+      <form
+  action="https://formspree.io/xpzylvnz"
+  method="POST">
+
+  <label>
+    
+    <input type="text" id="fname" name="_reply" placeholder="Your name">
+  </label>
+  <label>
+  
+    <input type="text" id="email" name="_replyto" placeholder=" your email">
+  </label>
+  <label>
+    
+    <textarea name="_replyto" id="message" placeholder="Your message"></textarea>
+  </label>
+​
+  <!-- your other form fields go here -->
+​ <br>
+  <button class="button" type="submit">Send</button>
+</form>
+    <!-- <form action="https://formspree.io/xpzylvnz"   method="POST">
+      
+        <input type="text" id="fname" name="_replyto" placeholder="Your name" height="10px" width="80">
+        <input type="text" id="email"  name="_replyto" placeholder=" your email" class="mt-3">
+        <input type="text" id="message" name="_replyto" placeholder="Your message" class="mt-3">
+        <button class="button mt-5 type="submit">Send</button>
+    </form> -->
+ 
   </div>
 </div>
 </section>
