@@ -250,7 +250,9 @@ hr{
 
 } */
 /* about me page */
-
+.padded-block{
+    padding: 50px 10px;
+}
 
 
  @media (min-width: 576px) and (orientation: landscape) { 
@@ -265,6 +267,10 @@ hr{
          height: 30vh;
  
      }
+     /* about me page */
+    .padded-block{
+        padding: 50px 100px;
+    }
  }
  
  /* // --------------------------------------------------------------Large devices (ipad pro) */
