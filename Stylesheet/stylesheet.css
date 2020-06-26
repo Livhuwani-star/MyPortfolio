@@ -254,6 +254,46 @@ hr{
     padding: 50px 10px;
 }
 
+.iconss{
+    display: inline-block;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 40%;
+    background-color: #96f7d2;
+}
+
+.icons-heading1{
+    display: inline-block;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 30%;
+    background-color:#96f7d2;
+}
+
+.icons-heading{
+    display: inline-block;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 4px;
+    background-color: #96f7d2;
+}
+
+
+
 
  @media (min-width: 576px) and (orientation: landscape) { 
   
@@ -495,6 +535,19 @@ h2{
 /* about me page */
 i{
     text-align: center;
+}
+
+.iconss{
+    display: inline-block;
+    font-size: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 40%;
+    background-color: #96f7d2;
 }
 }
  
